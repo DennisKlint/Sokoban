@@ -1,0 +1,16 @@
+#mapField {
+	vertical-align:top;
+}
+
+tr {
+	height: 36px;
+	display:block;
+}
+
+td {
+	display:inline;
+	vertical-align: top;
+}
+
+img {
+}
