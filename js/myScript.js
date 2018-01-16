@@ -240,12 +240,13 @@ document.addEventListener('keydown', function characterReact(event) {
 			arrayBoxes[theBox].yPosition -= 1;
 			changeBoxId(theBox);
 			
-			//Check if box is in goal
-			isInGoal(theBox);
 			
 			playerCharacter.yPosition -= 1;
 			document.getElementById('pic-'+(playerCharacter.yPosition+1)+'-'+playerCharacter.xPosition).
 			setAttribute('src','pic/i7.gif');
+			
+			//Check if box is in goal
+			isInGoal(theBox);
 			}
 			
 		}
